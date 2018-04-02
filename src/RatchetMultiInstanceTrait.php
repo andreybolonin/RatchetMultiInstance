@@ -3,6 +3,8 @@
 namespace andreybolonin;
 
 use Gos\Component\WebSocketClient\Wamp\Client;
+use Ratchet\ConnectionInterface;
+use Ratchet\Wamp\Topic;
 
 trait RatchetMultiInstanceTrait
 {
@@ -12,7 +14,24 @@ trait RatchetMultiInstanceTrait
     private $wampserver_broadcast;
 
     /**
+     * BroadcastTopic.
+     *
+     * @param ConnectionInterface $connection
+     * @param Topic               $topic
+     * @param $event
+     * @param array $exclude
+     * @param array $eligible
+     *
+     * @return mixed|void
+     */
+    public function BroadcastTopic(ConnectionInterface $connection, $topic, $event, array $exclude, array $eligible)
+    {
+        $topic->broadcast($event);
+    }
+
+    /**
      * @param array $event
+     *
      * @throws \Gos\Component\WebSocketClient\Exception\BadResponseException
      * @throws \Gos\Component\WebSocketClient\Exception\WebsocketException
      */

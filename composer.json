@@ -1,6 +1,19 @@
 {
+    "name": "andreybolonin/ratchet-multi-instance",
+    "license": "MIT",
+    "description": "Ratchet multi instance",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
     "require": {
         "php": ">=7.1",
-        "gos/websocket-client": "^0.1.2"
+        "gos/websocket-client": "^0.1.2",
+        "cboden/ratchet": "^0.4.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.9.2",
+        "friendsofphp/php-cs-fixer": "^2.11"
     }
 }
