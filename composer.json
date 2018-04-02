@@ -1,6 +1,16 @@
 {
     "name": "andreybolonin/ratchet-multi-instance",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Bolonin",
+            "email": "andreybolonin1989@gmail.com"
+        },
+        {
+            "name": "Igor Bondarenko",
+            "email": "igor3k.bondarenko@gmail.com"
+        }
+    ],
     "description": "Ratchet multi instance",
     "autoload": {
         "psr-4": {
