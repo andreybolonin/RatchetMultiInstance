@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php": ">=7.1",
+        "gos/websocket-client": "^0.1.2"
+    }
+}
