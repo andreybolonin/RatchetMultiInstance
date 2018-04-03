@@ -85,4 +85,4 @@ public function onPublish(ConnectionInterface $connection, $topic, $event, array
 
 ### Diagram
 
-<img src="https://github.com/andreybolonin/RatchetMultiInstance/master/RatchetMultiInstance.png">
+<img src="https://raw.githubusercontent.com/andreybolonin/RatchetMultiInstance/master/RatchetMultiInstance.png">
