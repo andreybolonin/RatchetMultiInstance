@@ -1,5 +1,9 @@
 # QuickStart
 
+### 0) Check, do you install high perfomance event extension (libev, libevent)
+
+http://socketo.me/docs/deploy#evented-io-extensions
+
 ### 1) Define your pool (config/services.yaml)
 `wampserver_broadcast: ['127.0.0.1:8095', '127.0.0.1:8097', '127.0.0.1:8099']`
 
