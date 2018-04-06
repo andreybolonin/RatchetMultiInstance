@@ -8,7 +8,7 @@ https://github.com/reactphp/event-loop#exteventloop
 
 https://bitbucket.org/osmanov/pecl-event/src/530d542a9e828ad23063a483164e6ff15aee157b/INSTALL.md?fileviewer=file-view-default
 
-<img src="https://raw.githubusercontent.com/andreybolonin/RatchetMultiInstance/master/stream_select_vs_libevent.jpg">
+<img src="https://raw.githubusercontent.com/andreybolonin/RatchetMultiInstance/master/stream_select_vs_libevent.png">
 
 ### 1) Define your pool (config/services.yaml)
 `wampserver_broadcast: ['127.0.0.1:8095', '127.0.0.1:8097', '127.0.0.1:8099']`
