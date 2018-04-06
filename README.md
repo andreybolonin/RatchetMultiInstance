@@ -8,7 +8,14 @@ https://github.com/reactphp/event-loop#exteventloop
 
 https://bitbucket.org/osmanov/pecl-event/src/530d542a9e828ad23063a483164e6ff15aee157b/INSTALL.md?fileviewer=file-view-default
 
-<img src="https://raw.githubusercontent.com/andreybolonin/RatchetMultiInstance/master/stream_select_vs_libevent.png">
+| Connections	| select	    | libevent
+| ------------- |:-------------:| -----:|
+| 100	        | 10.656	    | 9.298
+| 500	        | 11.175	    | 9.791
+| 800	        | 17.327	    | 9.709
+| 1000	        | 23.282	    | 9.749
+
+https://www.pigo.idv.tw/archives/589
 
 ### 1) Define your pool (config/services.yaml)
 `wampserver_broadcast: ['127.0.0.1:8095', '127.0.0.1:8097', '127.0.0.1:8099']`
