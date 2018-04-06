@@ -1,6 +1,6 @@
 # QuickStart
 
-### 0) Check, do you install high perfomance event extension (libev, libevent)
+### 0) Check, do you install high perfomance ext-event extension (libevent)
 
 http://socketo.me/docs/deploy#evented-io-extensions
 
@@ -8,7 +8,7 @@ https://github.com/reactphp/event-loop#exteventloop
 
 https://bitbucket.org/osmanov/pecl-event/src/530d542a9e828ad23063a483164e6ff15aee157b/INSTALL.md?fileviewer=file-view-default
 
-| Connections	| select	    | libevent
+| Connections	| stream_select | libevent
 | ------------- |:-------------:| -----:|
 | 100	        | 10.656	    | 9.298
 | 500	        | 11.175	    | 9.791
