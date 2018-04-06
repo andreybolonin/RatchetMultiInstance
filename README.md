@@ -4,6 +4,12 @@
 
 http://socketo.me/docs/deploy#evented-io-extensions
 
+https://github.com/reactphp/event-loop#exteventloop
+
+https://github.com/expressif/pecl-event-libevent#compile-from-sources
+
+https://bitbucket.org/osmanov/pecl-event/src/530d542a9e828ad23063a483164e6ff15aee157b/INSTALL.md?fileviewer=file-view-default
+
 ### 1) Define your pool (config/services.yaml)
 `wampserver_broadcast: ['127.0.0.1:8095', '127.0.0.1:8097', '127.0.0.1:8099']`
 
