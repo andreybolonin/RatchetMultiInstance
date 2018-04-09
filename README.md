@@ -70,6 +70,8 @@ server {
 	}
 }
 ```
+http://nginx.org/en/docs/http/load_balancing.html
+http://nginx.org/en/docs/http/websocket.html
 
 ### Installation
 
