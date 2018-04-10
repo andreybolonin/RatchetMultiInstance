@@ -106,4 +106,6 @@ public function onPublish(ConnectionInterface $connection, $topic, $event, array
 
 <img src="https://raw.githubusercontent.com/andreybolonin/RatchetMultiInstance/master/RatchetMultiInstance.png">
 
-### 5) Symfony Bundle https://github.com/andreybolonin/RatchetBundle
+### 5) Symfony Bundle 
+
+https://github.com/andreybolonin/RatchetBundle
