@@ -102,6 +102,8 @@ public function onPublish(ConnectionInterface $connection, $topic, $event, array
 
 4) Send the `$topic->broadcast($event)` with `$this->broadcast($event)` for broadcasting in another WampServer nodes
 
-### Diagram
+### Arch
 
 <img src="https://raw.githubusercontent.com/andreybolonin/RatchetMultiInstance/master/RatchetMultiInstance.png">
+
+### 5) Symfony Bundle https://github.com/andreybolonin/RatchetBundle
